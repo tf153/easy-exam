@@ -3,7 +3,7 @@
   </head>
   <body>
     <?php
-      echo $_POST["username"];
+      echo $_GET["username"];
      ?>
   </body>
 </html>
