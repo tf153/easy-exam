@@ -1,3 +1,3 @@
-<?php require_once 'header.php';?>
-<h1> Hello Rahul Joshi
-<?php require_once 'footer.php';?>
+<?php require 'header.php';?>
+<h1> Hello Rahul Joshi</h1>
+<?php require 'footer.php';?>
