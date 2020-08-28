@@ -1,14 +1,3 @@
-<html>
-  <head>
-    <title>Checking</title>
-  </head>
-  <body>
-      <form action="temp.php" method="get">
-        <label>
-          <input type="text" name="username">
-        </label>
-        <button type="submit">Submit</button>
+<?php require_once="header.php"?>
 
-      </form>
-  </body>
-</html>
+<?php require_once="footer.php" ?>
