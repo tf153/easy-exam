@@ -10,6 +10,7 @@
 
   <div id='login-box'>
     <div id='pop-up-login'>
+      <span class="close"> &#10060;</span>
       <h2><center>Login</center></h2>
       <form action="#" method='post'>
         <label for='username'>Username</label><br>
@@ -23,6 +24,7 @@
 
   <div id='signup-box'>
     <div id='pop-up-signup'>
+      <span class="close"> &#10060;</span>
       <h2><center>Signup</center></h2>
       <form action="#" method='post'>
         <label for='name'>Name</label><br>
@@ -40,15 +42,4 @@
 
 </div>
 <?php require_once 'footer.php';?>
-<script >
-var login=document.getElemetById('login-btn');
-var signup=document.getElementByID('signup-btn');
-var login_popup=document.getElementById('login-box');
-var signup_popup=document .getElementById('signup-box');
-login.onclick=function(){
-  login_popup.style.display="block";
-}
-signup.onclick=function(){
-  signup_popup.style.display="block";
-}
-</script>
+<script src="./scripts/script_index.js"></script>
