@@ -6,11 +6,19 @@ var span1 = document.getElementsByClassName("close")[0];
 var span2= document.getElementsByClassName("close")[1];
 login.onclick=function(){
   login_popup.style.display="block";
+  signup_popup.style.display = "none";
 }
 signup.onclick=function(){
   signup_popup.style.display="block";
+  login_popup.style.display = "none";
 }
 window.onclick = function(event) {
+	if (event.target == login_popup||event.target == signup_popup) {
+		login_popup.style.display = "none";
+    signup_popup.style.display = "none";
+	}
+}
+parent.onclick=function(event) {
 	if (event.target == login_popup||event.target == signup_popup) {
 		login_popup.style.display = "none";
     signup_popup.style.display = "none";
