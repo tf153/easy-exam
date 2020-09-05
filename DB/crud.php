@@ -24,5 +24,17 @@
         return false;
       }
     }
+    public function read($UserID,$Password){
+      try{
+        $sql="SELECT * FROM `Users` WHERE `UserID`= '$UserID' AND `Password`= '$Password'";
+        $stmt=$this->db->query($sql);
+        $result=$stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+      }
+      catch(PDOException $e){
+        echo $e->getMessage();
+        return 'error';
+      }
+    }
   }
  ?>

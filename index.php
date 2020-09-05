@@ -12,12 +12,12 @@
     <div id='pop-up-login'>
       <span class="close"> &#10060;</span>
       <h2><center>Login</center></h2>
-      <form action="#" method='post'>
+      <form action="./DB/success_login.php" method='post'>
         <label for='username'>Username</label><br>
-        <input class='input-box' type='text' name='username' id='username' required placeholder="Username"><br>
+        <input class='input-box' type='text' name='UserID' id='username' required placeholder="Username"><br>
         <label for='password'>Password</label><br>
-        <input class='input-box' type='password' name='password' id='password' required placeholder="Password"><br>
-        <center><button id="submit-login" class="submit-button" type='submit'>Login</button></center>
+        <input class='input-box' type='password' name='Password' id='password' required placeholder="Password"><br>
+        <center><button id="submit-login" class="submit-button" type='submit' name='submit'>Login</button></center>
       </form>
     </div>
   </div>
@@ -44,4 +44,3 @@
 
 </div>
 <?php require_once 'footer.php';?>
-<script src="./scripts/script_index.js"></script>
