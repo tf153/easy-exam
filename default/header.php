@@ -10,7 +10,8 @@
           echo $title
         ?>
       </title>
-      <link rel="stylesheet" href="./styles/style1.css">
+      <link rel="stylesheet" href=<?php echo "'".$style."'" ?> >
+      <link rel="stylesheet" type='text/css' href="../styles/default.css">
     </head>
     <body class="body">
       <header>

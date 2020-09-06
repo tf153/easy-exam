@@ -1,6 +1,7 @@
 <?php
   $title="Homepage";
-  require_once 'header.php';
+  $style="../styles/index.css";
+  require_once './default/header.php';
 ?>
 <div class ="main">
   <div id="login-signup">
@@ -43,4 +44,7 @@
   </div>
 
 </div>
-<?php require_once 'footer.php';?>
+<?php
+  $script="../scripts/script_index.js";
+  require_once './default/footer.php';
+?>

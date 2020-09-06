@@ -28,7 +28,7 @@
       try{
         $sql="SELECT * FROM `Users` WHERE `UserID`= '$UserID' AND `Password`= '$Password'";
         $stmt=$this->db->query($sql);
-        $result=$stmt->fetchAll(PDO::FETCH_ASSOC);
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
         return $result;
       }
       catch(PDOException $e){
