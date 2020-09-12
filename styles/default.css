@@ -10,7 +10,7 @@
   outline-offset: 0.15vw;
 }
 .header{
-  position: fixed;
+  position: relative;
   text-align: center;
   font-family: serif;
   font-size: 4vw;
