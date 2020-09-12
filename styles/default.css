@@ -4,16 +4,16 @@
   background: linear-gradient(rgba(200,200,200, 0.3),rgba(200, 200,200, 0.3)),radial-gradient(rgba(200,200,200,0.1),rgba(50,50,50,0.5)),url(../Images/background1.jpg); /* source= freerangestock.com*/
   background-size: cover;
   background-position: center;
-  margin:5px;
-  border:3px dashed grey;
-  outline:2px solid red;
-  outline-offset: 3px;
+  margin:0.25vw;
+  border:0.25vw dashed grey;
+  outline:0.1vw solid red;
+  outline-offset: 0.15vw;
 }
 .header{
   position: fixed;
   text-align: center;
   font-family: serif;
-  font-size: 70px;
+  font-size: 4vw;
   color: #f24527;
   text-shadow: 3px 4px 4px black;
   width:100%;
@@ -25,9 +25,6 @@
   width:98%;
 }
 #text-padding{
-  padding: 5px 20px;
-}
-.main{
-  top:85px;
-  position: relative;
+  padding: 0.2vw 1vw;
+  text-decoration: none;
 }

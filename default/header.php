@@ -17,6 +17,6 @@
       <header>
         <div class="header">
           <!-- image from freerengestock.com -->
-          <img src="../Images/logo.png" width=100px><span id="text-padding"><a href="./index.php">Easy Exam</a></span><img src="../Images/logo.png" width=100px>
+          <img src="../Images/logo.png" width=5%><a id="text-padding" href="./index.php">Easy Exam</a><img src="../Images/logo.png" width=5%>
         </div>
       </header>

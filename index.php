@@ -12,7 +12,7 @@
   <div id='login-box'>
     <div id='pop-up-login'>
       <span class="close"> &#10060;</span>
-      <h2><center>Login</center></h2>
+      <h1 class="head"><center>Login</center></h1>
       <form action="./DB/success_login.php" method='post'>
         <label for='username'>Username</label><br>
         <input class='input-box' type='text' name='UserID' id='username' required placeholder="Username"><br>
@@ -26,7 +26,7 @@
   <div id='signup-box'>
     <div id='pop-up-signup'>
       <span class="close"> &#10060;</span>
-      <h2><center>Signup</center></h2>
+      <h1 class="head"><center>Signup</center></h1>
       <form action="./DB/Success_register.php" method='post'>
         <label for='name'>Name</label><br>
         <input class='input-box' type='text'name='Name'id='name' required placeholder="Full Name"><br>
