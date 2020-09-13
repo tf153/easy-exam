@@ -32,8 +32,7 @@
         return $result;
       }
       catch(PDOException $e){
-        echo $e->getMessage();
-        return 'error';
+        throw new PDOException($e->getMessage());
       }
     }
   }

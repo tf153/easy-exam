@@ -11,5 +11,6 @@
   }
   if($isSuccess){
     echo "Successfully inserted into database";
+    require_once "./user_db.php";
   }
  ?>
