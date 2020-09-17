@@ -5,10 +5,16 @@
     $Password=$_POST['Password'];
     try{
       $data=$crud->read($UserID,$Password);
-      session_id($data['UserID']);
-      session_start();
-      $_SESSION['data']=$data;
-      header("Location: ../users/dashboard.php");
+      if($data){
+        session_id($data['UserID']);
+        session_start();
+        $_SESSION['data']=$data;
+        header("Location: ../users/dashboard.php");
+      }
+      else{
+        echo "Usename and Password are not correct";
+        exit();
+      }
     }
     catch(PDOException $e){
       echo $e->getMessage();

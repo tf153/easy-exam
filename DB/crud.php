@@ -33,6 +33,7 @@
       }
       catch(PDOException $e){
         throw new PDOException($e->getMessage());
+        exit();
       }
     }
   }

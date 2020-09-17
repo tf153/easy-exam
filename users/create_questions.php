@@ -1,10 +1,12 @@
 <?php
+	session_start();
 	$title="Create Questions";
 	$style="../styles/create_questions.css";
 	require_once "../default/header.php";
 ?>
 		<div id='main'>
-			<form method="post" action="view.php">
+			<form method="post" action="../DB/create_questions_db.php">
+				Enter your Unique Question Paper Name: <input type="text" name='qname'><br>
 				<div id='section-question'>
 					<!-- Section for insertion of questions -->
 				</div>
