@@ -10,7 +10,7 @@
   </div>
 
   <div id='login-box'>
-    <div id='pop-up-login'>
+    <div id='pop-up-login' class='animate'>
       <span class="close"> &#10060;</span>
       <h1 class="head"><center>Login</center></h1>
       <form action="./DB/success_login.php" method='post'>
@@ -24,7 +24,7 @@
   </div>
 
   <div id='signup-box'>
-    <div id='pop-up-signup'>
+    <div id='pop-up-signup' class='animate'>
       <span class="close"> &#10060;</span>
       <h1 class="head"><center>Signup</center></h1>
       <form action="./DB/Success_register.php" method='post'>

@@ -78,7 +78,14 @@ label{
 	font-weight: bold;
 	cursor: pointer;
 }
-
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
 
 
 /*animation: background_effect1 5s ease-in-out 0s infinite alternate;*/
