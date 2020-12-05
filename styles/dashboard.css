@@ -1,0 +1,22 @@
+.main{
+  width: 100%;
+  position: relative;
+}
+#toolbar{
+  position: relative;
+  width:100%;
+}
+#Name{
+  display:inline;
+  color: #fa7a2f;
+  font-size: 4vmin;
+}
+#profile-options{
+  display:inline-block;
+  float:right;
+  color: #fa7a2f;
+  font-size: 4vmin;
+  border: 0.15vmin solid red;
+  padding:0vmin 0.1vmin;
+  cursor: pointer;
+}

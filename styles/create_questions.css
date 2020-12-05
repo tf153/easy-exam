@@ -1,0 +1,86 @@
+.main{
+  position: relative;
+}
+#tot-ques{
+  display:inline-block;
+  position:relative;
+  border: 0.2vmin solid black;
+  border-radius: 2vmin;
+  background-color: black;
+  color: white;
+  font-size: 3vmin;
+}
+#section-question{
+  position:relative;
+  margin: 0.5% 5%;
+  padding: 3vmin;
+  border: 0.5vmin dotted black;
+}
+#add-question{
+  position:relative;
+  margin: 0.5% 5%;
+}
+.questions{
+  position: relative;
+  border: 0.2vmin solid grey;
+  padding: 1vmin;
+  border-radius: 3vmin;
+  margin: 2vmin;
+}
+#btn-add-question {
+	color: white;
+  float:right;
+	font-size: 3vmin;
+	font-weight: bolder;
+  background-color: black;
+  border-radius: 3vmin;
+}
+.question{
+  width:80%;
+  height: auto;
+  font-size:3vmin;
+  font-family: sans-serif;
+  border-radius: 1vmin;
+}
+.q{
+  font-size: 4vmin;
+  padding-left: 4vmin;
+  font-weight: bolder;
+}
+.delete-question{
+  color: black;
+  float: right;
+	font-size: 2vw;
+	font-weight: bold;
+	cursor: pointer;
+}
+.a{
+  font-size: 3vmin;
+  padding-left: 4vmin;
+  font-weight: bolder;
+}
+.answer{
+  font-size: 3vmin;
+  font-weight: bolder;
+  width: 15vmin;
+}
+.options-div{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+  position:relative;
+  margin: 0.5% 5%;
+  font-size: 2.5vmin;
+  font-weight: bolder;
+}
+.options{
+  font-size: 2.5vmin;
+  margin: 0.5vmin 1vmin;
+  width: 30vw;
+  height: 5vmin;
+}
+.each-option{
+  display: inline-flex;
+  width:20vmin;
+}
